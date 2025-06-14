@@ -1,0 +1,6 @@
+adsbSource: "adsb.lol"
+feedUuid: "adsb-cot-feed"
+adsbCotHost: "localhost"
+adsbCotPort: 5000
+adsbCotCommand: ""
+system: {archive: true}
