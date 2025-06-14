@@ -18,5 +18,5 @@ The resulting JAR is written to `build/libs/`.
 3. Copy `tak.server.plugins.AdsbToCotFeederPlugin.yaml` into the `conf/plugins` directory and edit as needed.
 4. Start the TAK Server Messaging, API, and Plugin processes ensuring that the `lib` directory is on the plugin classpath.
 
-Once started, the plugin converts ADS-B data to CoT and publishes the results to the configured data feed.
+Once started, the plugin periodically queries the configured ADS-B source, converts the tracks to CoT, and publishes the results to the configured data feed. Each CoT event is also broadcast over UDP to the `targetAddress`/`targetPort` specified in the plugin configuration so external systems can receive the data directly.
 
