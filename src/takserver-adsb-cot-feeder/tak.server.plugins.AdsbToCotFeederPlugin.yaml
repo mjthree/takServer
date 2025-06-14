@@ -1,4 +1,7 @@
 adsbSource: "adsb.lol"
 feedUuid: "adsb-cot-feed"
+targetAddress: "127.0.0.1"
+targetPort: 8089
+intervalSeconds: 30
 system: {archive: true}
 
