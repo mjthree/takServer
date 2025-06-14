@@ -1,0 +1,4 @@
+adsbSource: "adsb.lol"
+feedUuid: "adsb-cot-feed"
+system: {archive: true}
+
